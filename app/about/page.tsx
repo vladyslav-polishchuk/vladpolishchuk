@@ -24,8 +24,11 @@ export default function About() {
             <h2>Software engineering.</h2>
           </div>
           <div>
-            <p>I’ve spent more than a decade building and improving software. I enjoy working across the stack and paying attention to the decisions that make an application easier to use and maintain.</p>
-            <ActionLink href={githubUrl} external>Find me on GitHub</ActionLink>
+            <p>I’ve spent more than a decade building and improving software. I enjoy working across the stack and paying attention to the decisions that make an application easier to use and maintain. I’ve been a Toptal member since 2022.</p>
+            <div className="actions">
+              <ActionLink href={githubUrl} external>Find me on GitHub</ActionLink>
+              <ActionLink href="https://www.toptal.com/developers/resume/vladyslav-polishchuk#NgQ6rw" external>Hire me on Toptal</ActionLink>
+            </div>
           </div>
         </section>
         <section className="editorial-section split-section">
