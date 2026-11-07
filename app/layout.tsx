@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import Link from "next/link";
 import "@fontsource-variable/manrope";
@@ -46,6 +47,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             </div>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
